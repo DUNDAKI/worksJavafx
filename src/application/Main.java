@@ -15,12 +15,12 @@ public class Main extends Application {
 	@Override
 	public void start(Stage stage) {
 		try {
-			FXMLLoader loader = new FXMLLoader(getClass().getResource("/gui/ManView.fxml"));
+			FXMLLoader loader = new FXMLLoader(getClass().getResource("/gui/MainView.fxml"));
 			ScrollPane scrollPane = loader.load();
 			
-			//redimenciona scrollPane
+			//redimenciona scrollPane do menu bar
 			scrollPane.setFitToHeight(true);
-			scrollPane.setFitToWidth(true);
+			scrollPane.setFitToWidth(true);	
 			
 			
 			Scene scene = new Scene(scrollPane);
