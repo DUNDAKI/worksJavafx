@@ -5,9 +5,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-
-<VBox prefHeight="214.0" prefWidth="308.0"
-	xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/version 8.0.281">
+<VBox prefHeight="214.0" prefWidth="308.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
 	<children>
 		<Label text="About">
 			<VBox.margin>
