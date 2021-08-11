@@ -40,15 +40,13 @@ public class MainViewController implements Initializable {
 			controller.setDepartmentService(new DepartmentService());
 			controller.updateTableView();
 		});
-		
-		
-		
 	}
 
 	@FXML
 	public void onMenuItemAboutAction() {
-		loadView("/gui/About.fxml", x -> {
-		});
+		loadView("/gui/About.fxml", x -> {}
+		
+				);
 
 	}
 
